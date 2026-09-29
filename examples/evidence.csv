@@ -1,0 +1,5 @@
+evidence_id,claim_id,source_id,evidence_text,stance,notes
+E-001,C-001,S-001,"The archive records the opening ceremony in May 2018.",supports,Direct dated record.
+E-002,C-002,S-002,"The log records municipal tap-water use during two dry summer weeks.",refutes,Operational detail challenges the absolute wording.
+E-003,C-002,S-003,"The visitor guide says rainwater is the primary irrigation source.",context,Primary does not mean exclusive.
+E-004,C-003,S-001,"The facility inventory lists three public growing rooms.",supports,Count matches the claim.

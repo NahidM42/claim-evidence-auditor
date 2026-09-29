@@ -1,0 +1,92 @@
+{
+  "run_metadata": {
+    "generated_at": "2026-09-29T19:43:26.815170+00:00",
+    "tool": "claim-evidence-auditor",
+    "version": "0.1.0"
+  },
+  "dataset_summary": {
+    "claims": 3,
+    "sources": 3,
+    "evidence": 4,
+    "verdicts": 3
+  },
+  "errors": [],
+  "warnings": [],
+  "claim_summaries": [
+    {
+      "claim_id": "C-001",
+      "claim_text": "In the fictional town of Alderford, the public greenhouse opened in 2018.",
+      "topic": "local history",
+      "claimant": "Alderford City Archive",
+      "claim_date": "2024-04-12",
+      "evidence_total": 1,
+      "supports": 1,
+      "refutes": 0,
+      "context": 0,
+      "unclear": 0,
+      "unique_sources": 1,
+      "sources": [
+        {
+          "source_id": "S-001",
+          "title": "Alderford Greenhouse: Opening and Facilities",
+          "publisher": "Alderford City Archive",
+          "url": "https://example.org/alderford/archive"
+        }
+      ],
+      "verdict": "supported",
+      "rationale": "A dated municipal archive entry directly records the opening in 2018."
+    },
+    {
+      "claim_id": "C-002",
+      "claim_text": "The greenhouse uses only rainwater throughout the year.",
+      "topic": "water use",
+      "claimant": "Greenhouse visitor leaflet",
+      "claim_date": "2024-04-12",
+      "evidence_total": 2,
+      "supports": 0,
+      "refutes": 1,
+      "context": 1,
+      "unclear": 0,
+      "unique_sources": 2,
+      "sources": [
+        {
+          "source_id": "S-002",
+          "title": "Seasonal Watering Log",
+          "publisher": "Alderford Greenhouse Staff",
+          "url": "https://example.org/alderford/watering-log"
+        },
+        {
+          "source_id": "S-003",
+          "title": "Visitor Guide to the Greenhouse",
+          "publisher": "Alderford Parks Department",
+          "url": "https://example.org/alderford/visitor-guide"
+        }
+      ],
+      "verdict": "misleading",
+      "rationale": "The guide describes rainwater as primary, while the watering log documents tap-water use; the absolute word only overstates the evidence."
+    },
+    {
+      "claim_id": "C-003",
+      "claim_text": "The greenhouse has three public growing rooms.",
+      "topic": "facilities",
+      "claimant": "Alderford City Archive",
+      "claim_date": "2024-04-12",
+      "evidence_total": 1,
+      "supports": 1,
+      "refutes": 0,
+      "context": 0,
+      "unclear": 0,
+      "unique_sources": 1,
+      "sources": [
+        {
+          "source_id": "S-001",
+          "title": "Alderford Greenhouse: Opening and Facilities",
+          "publisher": "Alderford City Archive",
+          "url": "https://example.org/alderford/archive"
+        }
+      ],
+      "verdict": "supported",
+      "rationale": "The facility inventory lists exactly three public growing rooms."
+    }
+  ]
+}

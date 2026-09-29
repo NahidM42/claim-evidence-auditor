@@ -1,0 +1,2 @@
+claim_id,claim_text,topic,claimant,claim_date,notes
+BAD-001,,demo,Example,not-a-date,Intentional validation example.

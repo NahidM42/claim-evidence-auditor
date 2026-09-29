@@ -1,0 +1,2 @@
+evidence_id,claim_id,source_id,evidence_text,stance,notes
+BAD-E,NOT-FOUND,BAD-S,Missing references,agrees,Intentional invalid sample.
